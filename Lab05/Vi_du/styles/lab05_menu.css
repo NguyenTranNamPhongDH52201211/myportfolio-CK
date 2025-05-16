@@ -1,0 +1,66 @@
+.menu {
+    background-color: aquamarine;
+    list-style: none;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    padding :0 10px;
+    line-height: 30px;
+    /* margin-left: 30px; */
+}
+.menu :hover {
+    background-color: yellow;
+    border-radius: 5px;
+    font-weight: bold;
+    transition:  0.36s ease-in;
+
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: blue;
+ 
+
+}
+
+/* part 2 */
+.menu2 {
+    background-color: rgb(31, 131, 197);
+    list-style: none;
+    padding-left: 0;
+    width:  250px;
+}
+
+.menu2 li {
+    line-height: 30px;
+    height: 30px;
+    border-bottom: solid  white;
+    /* padding: 10px, 10px, 10px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+    padding: 10px;
+}
+
+.menu2 li a {
+    text-decoration: none;
+}
+
+.menu2 li:hover {
+    background-color: #24aae9;
+    transition:  0.75s;
+    font-style: italic;
+}
+
+.menu2 li a:hover {
+   
+    color: blue;
+    /* font-weight: bold; */
+
+}
