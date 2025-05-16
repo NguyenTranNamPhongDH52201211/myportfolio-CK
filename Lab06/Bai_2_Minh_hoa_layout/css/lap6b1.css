@@ -1,0 +1,35 @@
+.menuNgang{
+    width: 100%;
+    background-color: grey;
+    justify-content: space-between;
+    display: flex;
+  }
+   ul{
+   display: flex;
+  }
+  li{
+    list-style-type: none;
+    transition: 0.3 ease;
+    padding: 20px;
+  }
+  a{
+    text-decoration: none;
+    color:  white;
+    transition: color 0.5 ease;
+    font-weight: 550;
+  }
+  li a :hover{
+    color: black;
+    background-color: aqua;
+  }
+@media only screen AND (max-width:600px){
+  .horizontal-menu{
+    flex-direction: column;
+  }
+  .horizontal-menu li a.icon{
+     float:  right;
+    display: block;
+    }
+}
+
+  
